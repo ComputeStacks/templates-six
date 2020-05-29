@@ -59,6 +59,6 @@
 {include file="$template/includes/generate-password.tpl"}
 
 {$footeroutput}
-
+<script>$("li#Primary_Navbar-Announcements").hide();$("li#Primary_Navbar-Knowledgebase").hide();$("li#Primary_Navbar-Network_Status").hide();</script>
 </body>
 </html>
